@@ -1,9 +1,9 @@
 # Bank Marketing Predictor
 
 **Internship project:** Machine Learning  
-**Intern ID:** `[Enter your intern ID]`  
-**Full name:** `[Enter your full name]`  
-**Duration (weeks):** `[Enter number of weeks]`  
+**Intern ID:** `CITS9471`  
+**Full name:** `Chilaka Pankaj Dheeraj`  
+**Duration (weeks):** `12 weeks`  
 **Project scope:** Analyze campaign records and train a classification model to estimate whether a customer may subscribe to a term deposit.
 
 ## Overview
@@ -77,42 +77,5 @@ Run after activating the virtual environment.
 3. Predict subscription: enter fictional customer details and submit.
 4. Model evaluation: review classification metrics.
 
-## Screenshots to capture
-Save genuine screenshots in `screenshots/`:
-- `dashboard.png` — campaign overview and metrics.
-- `customer_records.png` — records and filter.
-- `prediction.png` — sample inputs and prediction probability.
-- `model_evaluation.png` — evaluation metrics.
-- `terminal_run.png` — successful Streamlit startup.
-- `tests_passed.png` — passing local test output.
-Do not fabricate screenshots or report tests as passed until run locally.
-
-## GitHub submission
-Create a separate repository named `Bank-Marketing-Predictor`. From the project root:
-
-```powershell
-git init
-git add .
-git commit -m "Build Bank Marketing Predictor ML dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/Bank-Marketing-Predictor.git
-git push -u origin main
-```
-Replace `YOUR-USERNAME` with your GitHub username. If a remote exists, inspect it with `git remote -v` first. Never upload credentials or private customer information. Verify `app.py`, `src/`, `data/`, `requirements.txt` and `README.md` on GitHub, then submit the repository URL.
-
-## Submission checklist
-- [ ] Complete source code uploaded.
-- [ ] Unique GitHub repository created.
-- [ ] README completed with intern ID, full name, duration, project name and scope.
-- [ ] Dataset and requirements uploaded.
-- [ ] Code comments and organized folders included.
-- [ ] Dashboard run and checked locally.
-- [ ] Automated tests executed.
-- [ ] Genuine screenshots and documentation uploaded.
-- [ ] Repository link submitted to internship provider.
-
 ## Limitations and future improvements
 Synthetic records cannot represent actual banking customers or campaign behavior. Metrics are demonstration results only. Future work could compare other classifiers and use a properly licensed public dataset for academic benchmarking, with suitable privacy and fairness checks.
-
-## Presentation topics
-Prepare to explain binary classification, Logistic Regression, one-hot encoding, standardization, class imbalance, stratified train/test split, precision, recall, F1 and ROC-AUC.
