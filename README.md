@@ -51,19 +51,19 @@ Bank-Marketing-Predictor/
 7. Predict a sample customer's subscription class and estimated probability.
 
 ## Requirements
-Windows 10/11, Python 3.10 or 3.11, VS Code, and internet access for initial package installation.
+Windows 10/11, Python 3.13 or later, VS Code, and internet access for initial package installation.
 
 ## Run in VS Code on Windows
 Open this folder in VS Code and run commands in Terminal from the project root.
 
 ```powershell
-py -3.11 -m venv .venv
+py -3.13 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
-If `py -3.11` is unavailable, use `python -m venv .venv`. For Command Prompt activation use `.venv\Scripts\activate.bat`. Open the local URL printed by Streamlit, usually `http://localhost:8501`. Stop with `Ctrl+C`.
+If `py -3.13` is unavailable, use `python -m venv .venv`. For Command Prompt activation use `.venv\Scripts\activate.bat`. Open the local URL printed by Streamlit, usually `http://localhost:8501`. Stop with `Ctrl+C`.
 
 ## Test
 ```powershell
